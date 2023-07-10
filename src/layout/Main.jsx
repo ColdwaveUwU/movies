@@ -22,7 +22,7 @@ const Main = () => {
         )
             .then((response) => response.json())
             .then((data) => {
-                setMovies(data);
+                setMovies(data.items);
                 setLoading(false);
             })
             .catch((err) => {

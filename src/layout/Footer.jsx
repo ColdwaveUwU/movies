@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 
 const Footer = () => {
     return (
-        <AppBar position="static" color="primary" style={{ position: 'fixed', bottom: '0', width: '100%' }}>
+        <AppBar position="static" color="primary" style={{ position: ' relative', bottom: '0', width: '100%' }}>
             <Toolbar>
                 <Typography 
                     variant="h6"
